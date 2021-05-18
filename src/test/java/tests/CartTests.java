@@ -36,6 +36,7 @@ public class CartTests extends TestBase{
         }};
 
 
+
         ApiSteps.addItemWithDetailsToCart("/details/2/1", details);
         WebSteps.verifyAddToCart("$25 Virtual Gift Card");
     }
